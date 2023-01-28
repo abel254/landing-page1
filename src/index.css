@@ -6,23 +6,8 @@
   box-sizing: border-box;
   font-family: 'Poppins', sans-serif;
 }
-body{
-  height: 100vh;
-  overflow-y: hidden;
-}
-header{
-  padding: 1.3em 0 .6em 0;
-  background: linear-gradient(112deg, #1E90FF -10%, #000080 110%);
-}
-header img{
-  width: 3.5em;
-}
-nav ul{
-  margin: auto 0;
-}
-nav ul li{
-  list-style: none;
-}
+/* 
+h
 nav ul li a{
   color: #fff;
   text-decoration: none;
@@ -30,12 +15,9 @@ nav ul li a{
   font-size: .69rem;
   letter-spacing: 2px;
   font-weight: 600;
-}
-nav ul li a:hover{
-  color: #fff;
-}
-nav ul li a svg{
-  font-size: .7rem;
+}*/
+header{
+  background: linear-gradient(112deg, #1E90FF -10%, #000080 110%);
 }
 header button{
   border: 0;
@@ -47,16 +29,30 @@ header button{
   letter-spacing: 2px;
   color: #fff;
 }
+.navbar-toggler{
+  outline: none !important;
+  border:none !important;
+}
+.navbar-nav .nav-item .nav-link {
+  color: white !important;
+}
+.nav-link a {
+  color: white !important;
+}
 
-/*banner*/
+
+
+
+/*Banner*/
 .banner{
   background: linear-gradient(112deg, #1E90FF -10%, #000080 110%);
-  padding: 2em 10em 0 10em;
   color: #F4F6F6;
 }
-.banner img{
-  width: 26.42em;
-
+.image{
+  width: 26.42;
+}
+.image img{
+  width: 100%;
 }
 .banner button{
   border: 0;
@@ -69,27 +65,19 @@ header button{
   letter-spacing: 2px;
   color: #fff;
 }
-.banner-text{
-  width: 95%;
-}
-.banner-text h1{
-  font-weight: 600;
-  letter-spacing: 1px;
-  margin-bottom: .5em;
-  font-size: 2.3rem;
-}
-.banner-text p{
-  margin-bottom: 2em;
-}
 
 /*Footer*/
-.footer .logo img{
- width: 2.8em;
- height: 2.8em;
+ .logo{
+ width: 7.6em;
 }
-.footer .logo p{
+.logo img{
+  width: 50%;
+  height: 3.8em;
+  object-fit: cover;
+}
+ .logo p{
   font-size: .67rem;
   color: #F4F6F6;
   margin: .6em 0 2em 0;
-}
+} 
 
