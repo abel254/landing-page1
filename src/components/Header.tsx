@@ -9,7 +9,7 @@ const logo = require("../assets/images/tier_logo.png");
 export const Header = () => {
   return (
     <header>
-      <Navbar expand='md'>
+      <Navbar expand='md' variant="dark">
         <Container>
           <Navbar.Brand href="#">
             <img

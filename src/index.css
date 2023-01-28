@@ -29,16 +29,6 @@ header button{
   letter-spacing: 2px;
   color: #fff;
 }
-.navbar-toggler{
-  outline: none !important;
-  border:none !important;
-}
-.navbar-nav .nav-item .nav-link {
-  color: white !important;
-}
-.nav-link a {
-  color: white !important;
-}
 
 
 
