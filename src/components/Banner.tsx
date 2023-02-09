@@ -20,7 +20,7 @@ export const Banner = () => {
                 Unlock Your Business Potential With Facebook & Instagram
                 Advertising
               </h1>
-              <p>Facebook Premier Level Partner Agency</p>
+              <p data-testid='agency'>Facebook Premier Level Partner Agency</p>
               <button className="">WORK WITH US</button>
             </div>
           </Col>
