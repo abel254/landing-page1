@@ -7,3 +7,8 @@ test('heading should be rendered', ()=>{
     const headingEl = screen.getByRole("heading")
     expect(headingEl).toBeInTheDocument();
 })
+test('agency should be rendered', ()=>{
+    render(<Banner/>)
+    const agencyEl = screen.getByTestId("agency")
+    expect(agencyEl).not.toBeInTheDocument();
+})
