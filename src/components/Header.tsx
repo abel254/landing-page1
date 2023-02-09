@@ -1,8 +1,7 @@
-import { ImArrowUp } from 'react-icons/im';
-import { ImArrowDown } from 'react-icons/im';
-import { GoTriangleDown } from 'react-icons/go';
+
+
 import React from 'react';
-import { Container, Row, Col, Navbar, Nav, NavDropdown } from 'react-bootstrap';
+import { Container, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
 const logo = require('../assets/images/tier_logo.png');
 
