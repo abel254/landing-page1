@@ -1,6 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800&display=swap');
 
-*{
+* {
   margin: 0;
   padding: 0;
   box-sizing: border-box;
@@ -16,38 +16,35 @@ nav ul li a{
   letter-spacing: 2px;
   font-weight: 600;
 }*/
-header{
-  background: linear-gradient(112deg, #1E90FF -10%, #000080 110%);
+header {
+  background: linear-gradient(112deg, #1e90ff -10%, #000080 110%);
 }
-header button{
+header button {
   border: 0;
   outline: 0;
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   border-radius: 50px;
   padding: 10px 30px;
-  font-size: .65rem;
+  font-size: 0.65rem;
   letter-spacing: 2px;
   color: #fff;
 }
 
-
-
-
 /*Banner*/
-.banner{
-  background: linear-gradient(112deg, #1E90FF -10%, #000080 110%);
-  color: #F4F6F6;
+.banner {
+  background: linear-gradient(112deg, #1e90ff -10%, #000080 110%);
+  color: #f4f6f6;
 }
-.image{
+.image {
   width: 26.42;
 }
-.image img{
+.image img {
   width: 100%;
 }
-.banner button{
+.banner button {
   border: 0;
   outline: 0;
-  background-color: #FF69B4;
+  background-color: #ff69b4;
   border-radius: 50px;
   padding: 20px 50px;
   font-size: 1rem;
@@ -57,17 +54,16 @@ header button{
 }
 
 /*Footer*/
- .logo{
- width: 7.6em;
+.logo {
+  width: 7.6em;
 }
-.logo img{
+.logo img {
   width: 50%;
   height: 3.8em;
   object-fit: cover;
 }
- .logo p{
-  font-size: .67rem;
-  color: #F4F6F6;
-  margin: .6em 0 2em 0;
-} 
-
+.logo p {
+  font-size: 0.67rem;
+  color: #f4f6f6;
+  margin: 0.6em 0 2em 0;
+}

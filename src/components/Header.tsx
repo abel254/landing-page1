@@ -1,16 +1,16 @@
-import { ImArrowUp } from "react-icons/im";
-import { ImArrowDown } from "react-icons/im";
-import { GoTriangleDown } from "react-icons/go";
-import React from "react";
-import { Container, Row, Col, Navbar, Nav, NavDropdown } from "react-bootstrap";
+import { ImArrowUp } from 'react-icons/im';
+import { ImArrowDown } from 'react-icons/im';
+import { GoTriangleDown } from 'react-icons/go';
+import React from 'react';
+import { Container, Row, Col, Navbar, Nav, NavDropdown } from 'react-bootstrap';
 
-const logo = require("../assets/images/tier_logo.png");
+const logo = require('../assets/images/tier_logo.png');
 
 export const Header = () => {
   return (
     <header>
       {/* navbar */}
-      <Navbar expand='md' variant="dark"> 
+      <Navbar expand="md" variant="dark">
         <Container>
           <Navbar.Brand href="#">
             <img
@@ -44,9 +44,7 @@ export const Header = () => {
             <button>WORK WITH US</button>
           </Navbar.Collapse>
         </Container>
-      </Navbar> 
-
-
+      </Navbar>
     </header>
   );
 };
