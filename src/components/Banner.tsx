@@ -1,13 +1,13 @@
-import { Container, Row, Col } from "react-bootstrap";
-import React from "react";
+import { Container, Row, Col } from 'react-bootstrap';
+import React from 'react';
 
-const banner = require("../assets/images/image.png");
-const fb = require("../assets/images/facebook_logo.png");
-const google = require("../assets/images/google-partner.png");
-const forbes = require("../assets/images/forbes.webp");
-const inc = require("../assets/images/inc.png");
-const millions = require("../assets/images/million.webp");
-const years = require("../assets/images/years.jpg");
+const banner = require('../assets/images/image.png');
+const fb = require('../assets/images/facebook_logo.png');
+const google = require('../assets/images/google-partner.png');
+const forbes = require('../assets/images/forbes.webp');
+const inc = require('../assets/images/inc.png');
+const millions = require('../assets/images/million.webp');
+const years = require('../assets/images/years.jpg');
 
 export const Banner = () => {
   return (
