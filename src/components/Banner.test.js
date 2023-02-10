@@ -10,5 +10,5 @@ test('heading should be rendered', ()=>{
 test('agency should be rendered', ()=>{
     render(<Banner/>)
     const agencyEl = screen.getByTestId("agency")
-    expect(agencyEl).not.toBeInTheDocument();
+    expect(agencyEl).toBeInTheDocument();
 })
