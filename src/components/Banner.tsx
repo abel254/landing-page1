@@ -36,7 +36,7 @@ export const Banner = () => {
                 <img src={fb} alt="" />
                 <p>
                   Facebook Premier <br />
-                  Level Agencyt Partner
+                  Level Agency Partner
                 </p>
               </div>
             </Col>
