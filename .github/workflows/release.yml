@@ -12,5 +12,5 @@ jobs:
     steps:
     - uses: actions/checkout@v3
     - run: docker build . -t abel254/landing-page1
-    - run: echo "${{secrets.DOCTER_PASSWORD}}" | docker login -u ${{secrets.DOCTERHUB_USERNAME}} --password-stdin
+    - run: echo "dckr_pat_xsWBF0wOr0U6HPHHOntwd8EYd3Y" | docker login -u docker login -u abel254 --password-stdin
     - run: docker push abel254/landing-page1 
